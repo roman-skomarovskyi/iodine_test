@@ -1,0 +1,16 @@
+{
+  "name": "iodine-test-task",
+  "version": "1.0.0",
+  "description": "Test project",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cypress": "^12.13.0",
+    "cypress-real-events": "^1.8.1",
+    "yarn": "^1.22.19"
+  },
+  "scripts": {
+    "test:run": "cypress run",
+    "test:open": "cypress open"
+  }
+}
