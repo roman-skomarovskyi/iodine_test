@@ -20,7 +20,9 @@ describe('Page navigation', () => {
       '1111-11-11',
     );
 
-    careerPage.jobApplyForm.textInput(careerPageLocators.JOB_APPLY_FORM.PERSONAL_INFO.FIRST_NAME).type('First Name');
+    careerPage.jobApplyForm
+      .textInput(careerPageLocators.JOB_APPLY_FORM.PERSONAL_INFO.FIRST_NAME)
+      .type('First Name');
     careerPage.jobApplyForm.submit();
     careerPage.jobApplyForm.checkErrorMessageForInput(
       careerPageLocators.JOB_APPLY_FORM.PERSONAL_INFO.LAST_NAME,
